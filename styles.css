@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+#task-form, #filter {
+    margin: 20px 0;
+}
+
+#task-form input, #task-form select, #task-form button,#delete button,#delete input,#Description-filter button,#Description-filter input,#title-filter input,#title-filter button{
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#filter select {
+    padding: 10px;
+    font-size: 16px;
+}
